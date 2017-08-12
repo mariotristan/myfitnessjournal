@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/mariotristan/myfitnessjournal/issues"
   },
-  "homepage": "https://github.com/mariotristan/myfitnessjournal#readme"
+  "homepage": "https://github.com/mariotristan/myfitnessjournal#readme",
+  "dependencies": {
+    "hapi": "^16.5.2",
+    "pug": "^2.0.0-rc.3"
+  }
 }
