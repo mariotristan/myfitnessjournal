@@ -1,0 +1,20 @@
+{
+  "name": "myfitnessjournal",
+  "version": "1.0.0",
+  "description": "APP to document my fitness Journal  ( and learn node in the process)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariotristan/myfitnessjournal.git"
+  },
+  "author": "Mario Tristan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariotristan/myfitnessjournal/issues"
+  },
+  "homepage": "https://github.com/mariotristan/myfitnessjournal#readme"
+}
