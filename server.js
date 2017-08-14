@@ -27,6 +27,30 @@ server.route({
     }
 });
 
+//handle static files
+server.register(require('inert'), (err) => {
+
+    if (err) {
+        throw err;
+    }
+
+    server.route({
+        method: 'GET',
+        path: '/calendar',
+        handler: function (request, reply) {
+            reply.file('public/calendar.html');
+        }
+    });
+
+    server.route({
+        method: 'GET',
+        path: '/{folder}/{filename}',
+        handler: function (request, reply) {
+            reply.file(request.params.folder + "/" +request.params.filename);
+        }
+    });
+});
+
 // Start the server
 server.start((err) => {
 

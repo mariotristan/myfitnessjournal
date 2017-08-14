@@ -4,7 +4,6 @@
   "description": "APP to document my fitness Journal  ( and learn node in the process)",
   "main": "index.js",
   "scripts": {
-    
     "start": "node server.js"
   },
   "repository": {
@@ -19,6 +18,7 @@
   "homepage": "https://github.com/mariotristan/myfitnessjournal#readme",
   "dependencies": {
     "hapi": "^16.5.2",
+    "inert": "^4.2.1",
     "pug": "^2.0.0-rc.3"
   }
 }
